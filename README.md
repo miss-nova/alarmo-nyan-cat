@@ -1,5 +1,5 @@
-# Alarmo Nyan Cat Animation USB Payload
-This is a simple payload, which can be booted over USB, displaying an animation of nyan cat.
+# Alarmo Nyan Cat Animation Payload
+This is a simple payload, which can be booted over USB (or other methods of your choosing), displaying an animation of nyan cat.
 
 ## Usage
 - Download the latest release or build from source.
