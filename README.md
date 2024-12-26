@@ -25,7 +25,7 @@ You can turn the dial to fade through different colors, press the back button to
 - Unfortunately, there are limitations to this, so take note of three things:
   - First of all, the max number of frames you can add are up to 11 frames. This is in order to be able to fit the payload when compiled to fit the Alarmo's USB debug storage.
   - Second, you can ONLY have 11 frames, unless you modify the source files to reduce the amount.
-  - Third, be must sure to use images that are small in file size, so again, it can fit into the Alarmo's USB debug storage when compiled and used.
+  - Third, you must be sure to use images that are small in file size, so again, it can fit into the Alarmo's USB debug storage when compiled and used.
 - That aside though, start by deleting all the nyan cat frames from the `data` folder.
 - For each custom frame you wish to add and to set the order of the frames, you must name the first frame `cat20.png`.
 - Every time you add a new frame, you must add the previous frame's number + 1.
