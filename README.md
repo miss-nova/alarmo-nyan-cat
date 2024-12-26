@@ -10,7 +10,7 @@ This is a simple payload, which can be booted over USB (or other methods of your
 - Copy the `MarkFile` to the drive.
 
 The Alarmo should disconnect from the PC and a picture of a cat is displayed on the screen.  
-You can turn the dial to fade through different colors, press the back button to display a QR code with [AES key data](../key_bruteforcer/README.md), or press down on the dial to make the cat return.
+You can turn the dial to fade through different colors, press the back button to display a QR code with [AES key data](../key_bruteforcer/README.md), or press down on the dial to make the cat return. Hold down the dial to keep running the animation, if you're building from source or are using the standard release.
 
 ## Building
 - Clone https://github.com/GaryOderNichts/alarmo with all submodules.
