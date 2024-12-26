@@ -5,7 +5,7 @@ def print_usage(file):
     print(f'Usage: {file} file')
     sys.exit(1)
 
-def main(argc, argv, argv2, argv3, argv4, argv5, argv6, argv7, argv8, argv9, argv10, argv11, argv12):
+def main(argc, argv, argv2, argv3, argv4, argv5, argv6, argv7, argv8, argv9, argv10, argv11):
     image = Image.open(sys.argv[1]).resize((320, 240)).convert('RGB')
     
     print(f'static uint8_t {os.path.basename(argv[1].replace(".", "_"))}_data[] = {{')
@@ -26,4 +26,4 @@ def main(argc, argv, argv2, argv3, argv4, argv5, argv6, argv7, argv8, argv9, arg
     print('};')
 
 if __name__ == '__main__':
-    main(len(sys.argv), sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv)
+    main(len(sys.argv), sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv, sys.argv)
